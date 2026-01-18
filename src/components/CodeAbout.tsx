@@ -16,14 +16,6 @@ const CodeAbout = () => {
       borderColor: "border-primary/50"
     },
     {
-      icon: <Database className="w-8 h-8" />,
-      title: "Backend Architect",
-      description: "Node.js, PostgreSQL, MongoDB",
-      fullDescription: "As a Backend Architect, I design and build the server-side logic, databases, and APIs that power applications. I focus on creating scalable, secure, and efficient systems that can handle complex data and business requirements.",
-      color: "text-secondary",
-      borderColor: "border-secondary/50"
-    },
-    {
       icon: <Cpu className="w-8 h-8" />,
       title: "System Designer",
       description: "Scalable architecture & APIs",
@@ -32,18 +24,10 @@ const CodeAbout = () => {
       borderColor: "border-accent/50"
     },
     {
-      icon: <GitBranch className="w-8 h-8" />,
-      title: "DevOps Enthusiast",
-      description: "Docker, CI/CD, AWS",
-      fullDescription: "As a DevOps Enthusiast, I focus on bridging the gap between software development and IT operations. I use automation, continuous integration, and continuous delivery to improve the speed and reliability of software releases.",
-      color: "text-quinary",
-      borderColor: "border-quinary/50"
-    },
-    {
       icon: <Palette className="w-8 h-8" />,
-      title: "Graphic Designer",
-      description: "UI/UX, Canva , Figma , Adobe Photoshop",
-      fullDescription: "As a Graphic Designer, I create visual concepts to communicate ideas that inspire, inform, and captivate consumers. I work with typography, color, and images to create everything from logos and websites to advertisements and social media graphics.",
+      title: "Creative Designer",
+      description: "UI/UX, Canva ",
+      fullDescription: "As a Creative Designer, I create visual concepts to communicate ideas that inspire, inform, and captivate consumers. I work with typography, color, and images to create everything from logos and websites to advertisements and social media graphics.",
       color: "text-senary",
       borderColor: "border-senary/50"
     },

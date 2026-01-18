@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const TerminalHero = () => {
   const [displayedText, setDisplayedText] = useState("");
-  const fullText = "Full Stack Developer";
+  const fullText = "Frontend Developer";
   const [showCursor, setShowCursor] = useState(true);
   const navigate = useNavigate();
 
@@ -38,7 +38,7 @@ const TerminalHero = () => {
     // Create a link element to download the resume
     const link = document.createElement('a');
     link.href = '/resume.pdf'; // Update this path to your actual resume file
-    link.download = 'Piyush-Singh-Resume.pdf';
+    link.download = 'Komal-Bhagat-Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -74,7 +74,7 @@ const TerminalHero = () => {
               </div>
               <div className="flex items-center gap-2 text-muted-foreground text-xs sm:text-sm">
                 <Terminal className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span className="text-sm font-mono text-foreground/80">piyush@developer:~$</span>
+                <span className="text-sm font-mono text-foreground/80">komal@developer:~$</span>
               </div>
             </div>
 
@@ -91,7 +91,7 @@ const TerminalHero = () => {
                     <span className="text-secondary">const</span>{" "}
                     <span className="text-foreground">developer</span>{" "}
                     <span className="text-accent">=</span>{" "}
-                    <span className="text-primary text-glow">"Piyush Singh"</span>
+                    <span className="text-primary text-glow">"Komal Bhagat"</span>
                     <span className="text-accent">;</span>
                   </p>
                   
@@ -146,7 +146,7 @@ const TerminalHero = () => {
 
               <div className="flex flex-wrap gap-3 sm:gap-4 pl-2 sm:pl-4">
                 <a 
-                  href="https://github.com/mayo-byte07" 
+                  href="https://github.com/komal-byte21" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 sm:gap-2 text-foreground hover:text-primary transition-colors group"
@@ -155,7 +155,7 @@ const TerminalHero = () => {
                   <span className="text-xs sm:text-sm font-mono">github</span>
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/mayeonng" 
+                  href="https://www.linkedin.com/in/komalbhagat2107" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 sm:gap-2 text-foreground hover:text-secondary transition-colors group"
@@ -164,7 +164,7 @@ const TerminalHero = () => {
                   <span className="text-xs sm:text-sm font-mono">linkedin</span>
                 </a>
                 <a 
-                  href="mailto:piyushsinghdhanwal@gmail.com"
+                  href="mailto:komalbhagatt92@gmail.com"
                   className="flex items-center gap-1 sm:gap-2 text-foreground hover:text-accent transition-colors group"
                 >
                   <Mail className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform flex-shrink-0" />
@@ -181,11 +181,11 @@ const TerminalHero = () => {
           {/* Enhanced Stats Bar */}
           <div className="mt-12 grid grid-cols-3 gap-6 text-center">
             <div className="bg-card/60 backdrop-blur-sm border border-primary/30 rounded-xl p-6 hover:border-primary/60 transition-all duration-300 hover:shadow-glow hover:scale-105">
-              <div className="text-3xl font-bold text-primary text-glow">2+</div>
+              <div className="text-3xl font-bold text-primary text-glow">1+</div>
               <div className="text-sm text-muted-foreground font-mono">Years Experience</div>
             </div>
             <div className="bg-card/60 backdrop-blur-sm border border-secondary/30 rounded-xl p-6 hover:border-secondary/60 transition-all duration-300 hover:shadow-glow hover:scale-105">
-              <div className="text-3xl font-bold text-secondary text-glow">25+</div>
+              <div className="text-3xl font-bold text-secondary text-glow">5+</div>
               <div className="text-sm text-muted-foreground font-mono">Projects</div>
             </div>
             <div className="bg-card/60 backdrop-blur-sm border border-accent/30 rounded-xl p-6 hover:border-accent/60 transition-all duration-300 hover:shadow-glow hover:scale-105">

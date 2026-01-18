@@ -20,15 +20,6 @@ const AboutPage = () => {
       bgGradient: "from-primary/10 to-primary/5"
     },
     {
-      icon: <Database className="w-10 h-10" />,
-      title: "Backend Architect",
-      description: "Node.js, PostgreSQL, MongoDB, REST APIs",
-      fullDescription: "As a Backend Architect, I design and build the server-side logic, databases, and APIs that power applications. I focus on creating scalable, secure, and efficient systems that can handle complex data and business requirements.",
-      color: "text-secondary",
-      borderColor: "border-secondary/50",
-      bgGradient: "from-secondary/10 to-secondary/5"
-    },
-    {
       icon: <Cpu className="w-10 h-10" />,
       title: "System Designer",
       description: "Scalable architecture & Microservices",
@@ -36,15 +27,6 @@ const AboutPage = () => {
       color: "text-accent",
       borderColor: "border-accent/50",
       bgGradient: "from-accent/10 to-accent/5"
-    },
-    {
-      icon: <GitBranch className="w-10 h-10" />,
-      title: "DevOps Enthusiast",
-      description: "Docker, CI/CD, AWS, Git Actions",
-      fullDescription: "As a DevOps Enthusiast, I focus on bridging the gap between software development and IT operations. I use automation, continuous integration, and continuous delivery to improve the speed and reliability of software releases.",
-      color: "text-quinary",
-      borderColor: "border-quinary/50",
-      bgGradient: "from-quinary/10 to-quinary/5"
     },
     {
       icon: <Palette className="w-10 h-10" />,
@@ -57,9 +39,9 @@ const AboutPage = () => {
     },
     {
       icon: <Video className="w-10 h-10" />,
-      title: "Video Creator",
+      title: "Video Editor",
       description: "Premiere Pro, After Effects, Motion Graphics",
-      fullDescription: "As a Video Creator, I assemble recorded raw material into a finished product that's suitable for broadcasting. The material may include camera footage, dialogue, sound effects, graphics and special effects.",
+      fullDescription: "As a Video Editor, I assemble recorded raw material into a finished product that's suitable for broadcasting. The material may include camera footage, dialogue, sound effects, graphics and special effects.",
       color: "text-tertiary",
       borderColor: "border-tertiary/50",
       bgGradient: "from-tertiary/10 to-tertiary/5"
@@ -69,7 +51,7 @@ const AboutPage = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
     link.href = '/resume.pdf';
-    link.download = 'Piyush-Singh-Resume.pdf';
+    link.download = 'komal-Singh-Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -133,7 +115,7 @@ const AboutPage = () => {
         </div>
 
         {/* Skills Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8 flex-1">
+        <div className="grid md:grid-cols-2 gap-4 mb-8 flex-1">
           {skills.map((skill, index) => (
             <Card 
               key={index}

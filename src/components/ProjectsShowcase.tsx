@@ -12,7 +12,7 @@ const ProjectsShowcase = () => {
       title: "Lstatic",
       description: "Learning Module System (LMS)",
       tech: ["React","Node.js","HTML","CSS","JavaScript"],
-      github: "https://github.com/mayo-byte07/learning-module-system",
+      github: "https://github.com/komal-byte21/learning-module-system",
       demo: "#",
       status: "In Progress",
       image: "/Screenshot 2026-01-13 231512.png",
@@ -23,33 +23,12 @@ const ProjectsShowcase = () => {
       title: "Healthetico",
       description: "Enterprise-grade precision health intelligence platform with multi-modal AI. Real-time biometric synthesis, NLP-powered symptom analysis, risk vector fusion, and HIPAA-compliant security.",
       tech: ["React","Node.js","Vector DB","AI"],
-      github: "https://github.com/mayo-byte07/SU-NATIONAL-HACKATHON",
+      github: "https://github.com/komal-byte21/SU-NATIONAL-HACKATHON",
       demo: "https://su-national-hackathon.vercel.app/",
       status: "Production",
       image: "/Screenshot 2026-01-14 124453.png",
       featured: true,
       category: "AI/Healthcare"
-    },
-    {
-      title: "LOGIN PAGE",
-      description: "Responsive login interface with real-time input validation and secure password handling. Features user-friendly design, instant error feedback, and clean form UX for smooth integration.",
-      tech: ["HTML","CSS","JavaScript"],
-      github: "https://github.com/mayo-byte07/LOGIN-PAGE",
-      demo: "https://mayo-byte07.github.io/LOGIN-PAGE/",
-      status: "Live",
-      image: "/Screenshot 2026-01-14 124941.png",
-      featured: false,
-      category: "Frontend"
-    },
-    {
-      title: "IoT Alcohol Detection",
-      description: "A smart IoT-based Alcohol Detection System using Arduino Uno and an MQ-3 sensor. Features a real-time dual-alert system (LED & Buzzer) to detect ethanol levels and enhance safety.",
-      tech: ["Arduino", "MQ-3", "C++", "IoT"],
-      github: "https://github.com/mayo-byte07/IOT-PROJECT-ALCHOL-DETECTION-SYSTEM",
-      status: "Completed",
-      image: "/Screenshot 2026-01-14 125104.png",
-      featured: false,
-      category: "IoT/Hardware"
     }
   ];
 

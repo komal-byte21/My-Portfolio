@@ -16,7 +16,7 @@ const CodeFooter = () => {
             <span className="text-accent"> {'}'}</span>
           </p>
           <p className="text-muted-foreground text-xs">
-            <span className="text-accent">//</span> © {new Date().getFullYear()} Piyush SIngh
+            <span className="text-accent">//</span> © {new Date().getFullYear()} Komal Bhagat
             <span className="text-accent"> | </span>
             Deployed on <span className="text-primary">{'<Earth />'}</span>
           </p>

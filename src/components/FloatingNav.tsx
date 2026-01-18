@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Home, FolderOpen, FileText, Mail, Menu, X, User } from "lucide-react";
+import { Home, FolderOpen, FileText, Menu, X, User } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const FloatingNav = () => {
@@ -22,7 +22,6 @@ const FloatingNav = () => {
     { icon: Home, label: "Home", path: "/" },
     { icon: User, label: "About", path: "/about" },
     { icon: FolderOpen, label: "Projects", path: "/projects" },
-    { icon: Mail, label: "Contact", path: "/contact" },
   ];
 
   const handleNavClick = (item: any) => {
